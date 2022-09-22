@@ -28,7 +28,6 @@ namespace apicampaign.Controllers
         public async Task<ActionResult<IEnumerable<WO_MAS_CAMPAIGN>>> PickingPremiumCampaign([FromBody] OrderCampaign orderCampaigns)
         {
 
-
             return Ok();
 
         }
