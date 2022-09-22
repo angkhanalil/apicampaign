@@ -23,8 +23,8 @@ namespace apicampaign.Controllers
         }
 
         [HttpPut("orders")]
-        // [RequestSizeLimit(100_000_000)]
-        [RequestSizeLimit(10)]
+        [RequestSizeLimit(100_000_000)]
+        //[RequestSizeLimit(10)]
         public async Task<ActionResult<IEnumerable<WO_MAS_CAMPAIGN>>> PickingPremiumCampaign([FromBody] OrderCampaign orderCampaigns)
         {
 
