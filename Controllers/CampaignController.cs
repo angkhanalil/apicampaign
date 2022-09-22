@@ -22,12 +22,14 @@ namespace apicampaign.Controllers
             return _context.WoMasCampaigns.ToList();
         }
 
-        [HttpPut]
-        public async Task<ActionResult<IEnumerable<WO_MAS_CAMPAIGN>>> PickingPremiumCampaign()
+        [HttpPut("orders")]
+        // [RequestSizeLimit(100_000_000)]
+        [RequestSizeLimit(10)]
+        public async Task<ActionResult<IEnumerable<WO_MAS_CAMPAIGN>>> PickingPremiumCampaign([FromBody] OrderCampaign orderCampaigns)
         {
-            //[FromBody]PaymentRequest request
 
-            return BadRequest();
+
+            return Ok();
 
         }
     }
