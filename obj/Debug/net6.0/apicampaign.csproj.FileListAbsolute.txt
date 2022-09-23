@@ -268,3 +268,7 @@ D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\IdentityModel.dll
 D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\IdentityServer4.dll
 D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\IdentityServer4.Storage.dll
 D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\nlog.config
+D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\NLog.dll
+D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\TWC\API_CAMPAIGN\apicampaign\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
